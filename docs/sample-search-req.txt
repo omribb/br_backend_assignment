@@ -1,0 +1,11 @@
+{
+    "departCityCode": "TLV",
+    "destCityCode": "AMS",
+    "departDate": "2022-06-01T00:00:00",
+    "returnDateToOrigin": "2022-06-08T00:00:00",
+    "passengers": {
+        "adt": 2,
+        "chd": 1,
+        "inf": 0
+    }
+}

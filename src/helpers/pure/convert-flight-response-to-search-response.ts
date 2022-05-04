@@ -1,9 +1,9 @@
-import { IFlightsResponse } from "../models/IFlightsResponse";
+import { IFlightsResponse } from "../../models/IFlightsResponse";
 import {
   ISearchResponse,
   ISearchResponseResult,
-} from "../models/ISearchResponse";
-import { TPassengersComposition } from "../models/TPassengersComposition";
+} from "../../models/ISearchResponse";
+import { TPassengersComposition } from "../../models/TPassengersComposition";
 
 export function convertFlightResponseToSearchResponse(
   passengerComposition: TPassengersComposition,

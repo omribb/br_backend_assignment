@@ -1,5 +1,5 @@
-import { IDistributerSearchRequest } from "../models/IDistributerSearchRequest";
-import { ISearchRequest } from "../models/ISearchRequest";
+import { IDistributerSearchRequest } from "../../models/IDistributerSearchRequest";
+import { ISearchRequest } from "../../models/ISearchRequest";
 
 export function convertSearchReqToDistributerSearchReq(
   request: ISearchRequest

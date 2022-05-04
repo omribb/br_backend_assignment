@@ -1,4 +1,4 @@
-import { IAirlineCommission } from "../models/IAirlineCommission";
+import { IAirlineCommission } from "../../models/IAirlineCommission";
 
 export function calcNetPrice(
   airlinesCommissions: Readonly<IAirlineCommission[]>,

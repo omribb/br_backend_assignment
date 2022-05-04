@@ -1,7 +1,7 @@
 import axios from "axios";
 import _ from "lodash";
-import { IDistributerSearchRequest } from "../models/IDistributerSearchRequest";
-import { IFlightsResponse } from "../models/IFlightsResponse";
+import { IDistributerSearchRequest } from "../../models/IDistributerSearchRequest";
+import { IFlightsResponse } from "../../models/IFlightsResponse";
 
 export async function searchFlightsOnDistributer(
   request: IDistributerSearchRequest

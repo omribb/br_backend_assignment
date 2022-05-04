@@ -1,6 +1,6 @@
-import { ICommissionRule } from "../models/ICommissionRule";
-import { IFlightsResponsePricing } from "../models/IFlightsResponse";
-import { TPassengersComposition } from "../models/TPassengersComposition";
+import { ICommissionRule } from "../../models/ICommissionRule";
+import { IFlightsResponsePricing } from "../../models/IFlightsResponse";
+import { TPassengersComposition } from "../../models/TPassengersComposition";
 
 export function calcTotalPrice(
   passengerComposition: TPassengersComposition,

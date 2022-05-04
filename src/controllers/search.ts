@@ -15,7 +15,6 @@ searchController.post("/", async function (req, res) {
   const flights = await searchFlightsOnDistributer(
     convertSearchReqToDistributerSearchReq(request)
   );
-
   for (const result of flights.Results) {
     for (const price of result.Pricing) {
       price.netPrice = calcNetPrice(
